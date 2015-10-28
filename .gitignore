@@ -1,2 +1,5 @@
-job/query_log.*
+.vagrant
+job
+src
 resources/*.tgz
+resources/*.rpm
