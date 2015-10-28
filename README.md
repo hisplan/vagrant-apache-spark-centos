@@ -1,4 +1,4 @@
-# vagrant-apache-spark
+# vagrant-apache-spark-centos
 
 ## 1. Introduction
 Vagrant project to spin up a single node, CentOS 6.4 box with Apache Spark 1.5.1 (pre-built for Apache Hadoop 2.4).
