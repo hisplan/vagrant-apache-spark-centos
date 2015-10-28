@@ -17,6 +17,7 @@ Vagrant project to spin up a single node, CentOS 6.4 box with Apache Spark 1.5.1
 6. Run `vagrant destroy` when you want to destroy and get rid of the VM.
 
 ## 4. Note
+- The base box for CentOS 6.4 will be downloaded from http://wdev.qa.admarketplace.net.
 - If you run `vagrant up` for the very first time, Oracle JDK 8 and Spark 1.5.1 will be automatically downloaded and installed, and copied to the `/resources` directory. Next time, when you run `vagrant up`, the files in the `/resources` directory will be used instead, which will make the boot-up time fast. In the future, these files will be included as part of the base box.
 - log4j log level is configured to WARN.
 - This uses Oracle JDK 8.
