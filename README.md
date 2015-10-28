@@ -12,3 +12,4 @@ Vagrant project to spin up a single node, CentOS 6.4 box with Apache Spark 1.5.1
 - This uses Oracle JDK 8.
 - spark-1.5.1-bin-hadoop2.4.tgz (from Apache Spark official site) has to be downloaded and placed inside the ./resources directory (to speed up the vagrant destroy & up process). In the future, this will be included as part of the base box.
 - log4j log level is configured to WARN.
+- This comes with Python 2.6.x.
