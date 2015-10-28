@@ -9,6 +9,8 @@ Vagrant.configure(2) do |config|
      vb.customize ["modifyvm", :id, "--usbehci", "off"]
   end
 
+  config.vm.hostname = "spark-single-node"
+
   config.vm.provision "shell", path: "./scripts/bootstrap.sh"
 
 end
