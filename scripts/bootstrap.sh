@@ -9,7 +9,7 @@ then
 	sudo cp jdk-8u45-linux-x64.rpm /vagrant/resources
 fi
 
-sudo rpm -ivh jdk-8u45-linux-x64.rpm
+sudo rpm -ivh /vagrant/resources/jdk-8u45-linux-x64.rpm
 
 # install spark 1.5.1 pre-built for hadoop 2.4
 if [ ! -f "/vagrant/resources/spark-1.5.1-bin-hadoop2.4.tgz" ]
